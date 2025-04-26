@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CmdArg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadProgress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DragDropWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="framelesswindow\framelesswindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiProcess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiScanHook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InjectionLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="framelesswindow\windowdragger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Zip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortCut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadProgressWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Update.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugConsole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowDocker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PDB_Download.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DotNetOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DownloadProgress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DragDropWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Injection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortCut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InjectionLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdArg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Update.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PDB_Download.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="eac_resource\DragDrop Icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="eac_resource\Log Icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="eac_resource\EAC Icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="DarkStyle.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="framelesswindow\framelesswindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="GuiMain.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="GuiProcess.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="GuiScanHook.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="mainwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="framelesswindow\windowdragger.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="DownloadProgressWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="DebugConsole.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="WindowDocker.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="DotNetOptions.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="framelesswindow\framelesswindow.ui">
+      <Filter>UI</Filter>
+    </QtUic>
+    <QtUic Include="GuiMain.ui">
+      <Filter>UI</Filter>
+    </QtUic>
+    <QtUic Include="GuiProcess.ui">
+      <Filter>UI</Filter>
+    </QtUic>
+    <QtUic Include="mainwindow.ui">
+      <Filter>UI</Filter>
+    </QtUic>
+    <QtUic Include="GuiScanHook.ui">
+      <Filter>UI</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="frameless_window_dark.pro">
+      <Filter>UI</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="UI">
+      <UniqueIdentifier>{e3066775-22c2-4b7c-9267-3baa441d1851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{d36dffad-ab1b-4f9a-bf68-8eb462e4a572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8969f1a4-9aa1-441b-9328-f74016072f5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{ae7bfe11-ca67-4819-8ac3-2c6d5df676d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EasyAntiCheat GUI.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="mainwindow.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>EasyAntiCheatDotNET</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>1.6.5.0</Version>
+    <AssemblyVersion>1.6.5.0</AssemblyVersion>
+    <FileVersion>1.6.5.0</FileVersion>
+    <AssemblyName>EasyAntiCheatDotNET</AssemblyName>
+    <BaseOutputPath>$(SolutionDir)$(Configuration)\</BaseOutputPath>
+	<OutputPath>$(SolutionDir)$(Configuration)\</OutputPath>
+    <PackageOutputPath>$(SolutionDir)$(Configuration)\</PackageOutputPath>
+	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+	<Company>Epic Games, Inc.</Company>
+	<Product>Easy Anti-Cheat DotNET (EOS)</Product>
+	<Copyright>Copyright Epic Games, Inc. All Rights Reserved.</Copyright>
+	<PackageIcon></PackageIcon>
+	<Title>Easy Anti-Cheat DotNET (EOS)</Title>
+	<Description>Easy Anti-Cheat DotNET (EOS)</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Reflection.MetadataLoadContext" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>

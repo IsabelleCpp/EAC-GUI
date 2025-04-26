@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/GuiMain">
+        <file>eac_resource/EAC Icon.png</file>
+        <file>eac_resource/EAC Icon.ico</file>
+        <file>eac_resource/Log Icon.ico</file>
+    </qresource>
+</RCC>
