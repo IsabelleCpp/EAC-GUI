@@ -8,10 +8,10 @@ const int GuiMain::EXIT_CODE_REBOOT			= -1;
 const int GuiMain::EXIT_CODE_UPDATE			= -2;
 const int GuiMain::EXIT_CODE_START_NATIVE	= -3;
 
-const int GuiMain::Height_small			= 410;
-const int GuiMain::Height_medium_s		= 480;
-const int GuiMain::Height_medium_b		= 593;
-const int GuiMain::Height_big			= 643;
+const int GuiMain::Height_small			= 721;
+const int GuiMain::Height_medium_s		= 791;
+const int GuiMain::Height_medium_b		= 904;
+const int GuiMain::Height_big			= 954;
 const int GuiMain::Height_change_delay	= 100;
 
 GuiMain::GuiMain(QWidget * parent)
