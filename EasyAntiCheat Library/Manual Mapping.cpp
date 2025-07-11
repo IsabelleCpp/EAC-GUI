@@ -1135,7 +1135,7 @@ DWORD __declspec(code_seg(".mmap_sec$03")) __stdcall MMI_RelocateImage(MANUAL_MA
 
 		if (!pRelocDir->Size)
 		{
-			return INJ_MM_ERR_IMAGE_CANT_BE_RELOCATED;
+			return INJ_ERR_SUCCESS;
 		}
 
 		auto * pRelocData = ReCa<IMAGE_BASE_RELOCATION *>(pData->pImageBase + pRelocDir->VirtualAddress);
